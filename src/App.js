@@ -1,10 +1,14 @@
 import './App.css';
+import ImgPreview from "./ImgPreview/ImgPreview";
 
 function App() {
   return (
     <div className="App">
-      <h1>this is react project 1</h1>
-      <h2>this will be img preview component! usingreact libraries!</h2>      
+      <h3 className="pt-3" style={{ color: "maroon" }}>
+        Image Preview Using React LightBox
+      </h3>
+      <ImgPreview
+      />
     </div>
   );
 }
